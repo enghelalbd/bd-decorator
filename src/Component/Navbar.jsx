@@ -1,13 +1,12 @@
 const Navbar = () => {
   return (
     <div className="content-box flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5">
-      <Logo></Logo>
       <nav>
         <ul className="flex gap-16 ">
           <li className="">
             <a
               href="#"
-              className="border-b-3 border-pimary py-1   border-primary duration-200 hover:font-bold"
+              className="border-b-3 border-rpimary py-1   border-primary duration-200 hover:font-bold"
             >
               Home
             </a>
@@ -33,7 +32,7 @@ const Navbar = () => {
               href="#"
               className="border-b-3 border-rpimary py-1   border-primary duration-200 hover:font-bold"
             >
-              Contact
+              Logout
             </a>
           </li>
         </ul>
