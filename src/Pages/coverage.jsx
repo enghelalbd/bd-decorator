@@ -1,10 +1,14 @@
 import React from "react";
+import "leaflet/dist/leaflet.css";
 
 const coverage = () => {
   const position = [51.505, -0.09];
   return (
     <div>
-      <h2 className="text-5xl text-fuchsia-600"> We are all 64 District</h2>
+      <h2 className="text-5xl text-fuchsia-600 border w-full h-[800px]  ">
+        {" "}
+        We are all 64 District
+      </h2>
       <div></div>
       <div>
         <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
