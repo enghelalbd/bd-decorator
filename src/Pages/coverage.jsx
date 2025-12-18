@@ -1,7 +1,12 @@
 import React from "react";
 import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
-const coverage = () => {
+const Coverage = () => {
   const position = [51.505, -0.09];
   return (
     <div>
@@ -11,7 +16,12 @@ const coverage = () => {
       </h2>
       <div></div>
       <div>
-        <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
+        <MapContainer
+          center={position}
+          zoom={13}
+          scrollWheelZoom={false}
+          className="h-[500px] w-full"
+        >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -27,4 +37,4 @@ const coverage = () => {
   );
 };
 
-export default coverage;
+export default Coverage;

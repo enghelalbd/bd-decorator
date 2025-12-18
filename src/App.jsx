@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Services from "./Pages/Services";
 import Booking from "./Pages/Booking";
 import Payment from "./Pages/Payment";
+import Coverage from "./Pages/coverage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <Booking></Booking>
 
       <Payment></Payment>
+      <Coverage></Coverage>
       <Footer></Footer>
     </>
   );
