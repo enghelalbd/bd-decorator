@@ -35,6 +35,15 @@ const Navbar = () => {
               Logout
             </a>
           </li>
+
+          <li className="">
+            <a
+              href="#"
+              className="border-b-3 border-rpimary py-1   border-primary duration-200 hover:font-bold"
+            >
+              Come
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
