@@ -41,5 +41,4 @@ const Coverage = () => {
     </div>
   );
 };
-
 export default Coverage;

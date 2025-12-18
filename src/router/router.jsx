@@ -4,11 +4,12 @@ import ReactDOM from "react-dom/client";
 // import { RouterProvider } from "react-router/dom";
 import Coverage from "../Pages/Coverage";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import Home from "../Pages/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello World</div>,
+    element: <Home></Home>,
   },
   {
     path: "coverage",
